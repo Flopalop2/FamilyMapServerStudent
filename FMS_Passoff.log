@@ -1,0 +1,50 @@
+[Wed Feb 24 20:17:30 MST 2021] - INFO passoff.ServerTest: 	Setting up Persistence Test...
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Proxy: 	Clear called
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Client: 	Post without Request Body called
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Client: 	Attempting to open connection to server
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Client: 	Connection opened to server
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Client: 	Setting passoffrequest method to POST
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Client: 	Request method set to POST
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Client: 	Setting Do Output to true
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Client: 	Do Output set to true
+[Wed Feb 24 20:17:30 MST 2021] - INFO client.Client: 	Connecting to server
+[Wed Feb 24 20:17:32 MST 2021] - INFO passoff.ServerTest: 	Setting up File Handler Default Test...
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Proxy: 	Clear called
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Client: 	Post without Request Body called
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Client: 	Attempting to open connection to server
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Client: 	Connection opened to server
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Client: 	Setting passoffrequest method to POST
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Client: 	Request method set to POST
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Client: 	Setting Do Output to true
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Client: 	Do Output set to true
+[Wed Feb 24 20:17:32 MST 2021] - INFO client.Client: 	Connecting to server
+[Wed Feb 24 20:17:34 MST 2021] - INFO passoff.ServerTest: 	Setting up Realistic Fill Death Test...
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Proxy: 	Clear called
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Client: 	Post without Request Body called
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Client: 	Attempting to open connection to server
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Client: 	Connection opened to server
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Client: 	Setting passoffrequest method to POST
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Client: 	Request method set to POST
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Client: 	Setting Do Output to true
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Client: 	Do Output set to true
+[Wed Feb 24 20:17:34 MST 2021] - INFO client.Client: 	Connecting to server
+[Wed Feb 24 20:17:36 MST 2021] - INFO passoff.ServerTest: 	Setting up Login Invalid User Test...
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Proxy: 	Clear called
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Client: 	Post without Request Body called
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Client: 	Attempting to open connection to server
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Client: 	Connection opened to server
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Client: 	Setting passoffrequest method to POST
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Client: 	Request method set to POST
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Client: 	Setting Do Output to true
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Client: 	Do Output set to true
+[Wed Feb 24 20:17:36 MST 2021] - INFO client.Client: 	Connecting to server
+[Wed Feb 24 20:17:38 MST 2021] - INFO passoff.ServerTest: 	Setting up Load Valid Info Test...
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Proxy: 	Clear called
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Client: 	Post without Request Body called
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Client: 	Attempting to open connection to server
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Client: 	Connection opened to server
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Client: 	Setting passoffrequest method to POST
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Client: 	Request method set to POST
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Client: 	Setting Do Output to true
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Client: 	Do Output set to true
+[Wed Feb 24 20:17:38 MST 2021] - INFO client.Client: 	Connecting to server
