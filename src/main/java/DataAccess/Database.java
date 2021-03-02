@@ -61,7 +61,7 @@ public class Database {
 
     /**
      * closes database connection
-     * @param commit wheter or not to commit changes
+     * @param commit whether or not to commit changes
      * @throws DataAccessException
      */
     public void closeConnection(boolean commit) throws DataAccessException {
@@ -91,8 +91,7 @@ public class Database {
     {
 
         try (Statement stmt = conn.createStatement()){
-//TODO change this to clear all tables
-            String sql = "DELETE FROM Events";
+            String sql = "DELETE FROM events; DELETE FROM authtokens; DELETE FROM persons; DELETE FROM users;";
             stmt.executeUpdate(sql);
         } catch (SQLException e) {
             throw new DataAccessException("SQL Error encountered while clearing tables");

@@ -30,8 +30,9 @@ public class EventDAO {
     public void insert(Event event) throws DataAccessException {
         //We can structure our string to be similar to a sql command, but if we insert question
         //marks we can change them later with help from the statement
-        String sql = "INSERT INTO Events (EventID, AssociatedUsername, PersonID, Latitude, Longitude, " +
+        String sql = "INSERT INTO Events (EventID, AssociatedUser, PersonID, Latitude, Longitude, " +
                 "Country, City, EventType, Year) VALUES(?,?,?,?,?,?,?,?,?)";
+        //INSERT INTO Events (EventID, AssociatedUser, PersonID, Latitude, Longitude, Country, City, EventType, Year) VALUES(20,"test",23,1,1,"test","test","test",1999)
         try (PreparedStatement stmt = conn.prepareStatement(sql)) {
             //Using the statements built-in set(type) functions we can pick the question mark we want
             //to fill in and give it a proper value. The first argument corresponds to the first
@@ -66,7 +67,7 @@ public class EventDAO {
             stmt.setString(1, eventID);
             rs = stmt.executeQuery();
             if (rs.next()) {
-                event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
+                event = new Event(rs.getString("EventID"), rs.getString("AssociatedUser"),
                         rs.getString("PersonID"), rs.getFloat("Latitude"), rs.getFloat("Longitude"),
                         rs.getString("Country"), rs.getString("City"), rs.getString("EventType"),
                         rs.getInt("Year"));
@@ -86,5 +87,20 @@ public class EventDAO {
 
         }
         return null;
+    }
+
+    /**
+     * clears table in database
+     * @return true if succeeded
+     */
+    public void clearTable() throws DataAccessException {
+        String sql = "DELETE from Events";
+
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new DataAccessException("Error encountered while clearing the database");
+        }
     }
 }
